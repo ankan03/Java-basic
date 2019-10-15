@@ -4,7 +4,8 @@ class Calculater
 {
 public static void main(String[] args) throws IOException
 	{
-		int ch=1;
+		System.out.println("enter 1 to continue or any other to exit");
+		ch =sc.nextInt();
 	do{	
 		
 	double ans;
@@ -37,6 +38,7 @@ public static void main(String[] args) throws IOException
 		     ans=a/b;
 		     System.out.println("Ans is "+ans);
 		     break;
+		     
 		default:
 		System.out.println("Your choice is wrong");	
 		}
