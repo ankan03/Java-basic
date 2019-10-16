@@ -5,19 +5,7 @@ class Calculater
 public static void main(String[] args) throws IOException
 	{
 		int ch=1;
-	do{	
-		
-	double ans;
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter 1st number");
-	int a =sc.nextInt();
-	System.out.println("Enter 2nd number");
-	int b =sc.nextInt();
-	System.out.println("Enter your choice");
-	System.out.println("Enter 1 for add");
-	System.out.println("Enter 2 for substruct");
-	System.out.println("Enter 3 for multiply");
-	System.out.println("Enter 4 for devide");
+	);
 	int c =sc.nextInt();
 	switch(c)
 		{
