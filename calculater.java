@@ -5,7 +5,7 @@ class Calculater
 public static void main(String[] args) throws IOException
 	{
 		int ch=1;
-	);
+	}
 	int c =sc.nextInt();
 	switch(c)
 		{
